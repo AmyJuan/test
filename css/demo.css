@@ -79,3 +79,7 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+
+.contact-title {
+  font-size: 12px;
+}
