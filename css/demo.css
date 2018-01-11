@@ -45,6 +45,37 @@
   color: #F00;
 }
 
-.article{
-border-bottom:rgb(195, 129, 18) solid 3px  
+.article {
+  border-bottom: rgb(195, 129, 18) solid 3px
+}
+
+.artical-list {
+  padding: 10px 0;
+}
+
+.artical-img {
+  width: 100px;
+  height: 100px;
+}
+
+.artical-link span {
+  font-size: 13px;
+}
+
+.artical-link span:nth-child(2) {
+  font-size: 13px;
+  float: right;
+  margin-top: 10px;
+}
+
+.artical-subject {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
