@@ -84,22 +84,22 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 mx-auto">
-        <!-- <div id="top">
-          <ul id="top-img">
-            <li><img src="img/home-bg.jpg"> </li>
-            <li> <img src="img/post-bg.jpg"></li>
-            <li><img src="img/contact-bg.jpg"></li>
-            <li><img src="img/about-bg.jpg"></li>
-            <li><img src="img/about-all-bg.jpg"></li>
-          </ul>
-          <ul id="top-num">
-            <li>1</li>
+        <div id="banner">
+          <div id="banner_bg"></div>
+          <div id="banner_info"> </div>
+          <ul>
+            <li class="on">1</li>
             <li>2</li>
             <li>3</li>
             <li>4</li>
-            <li>5</li>
           </ul>
-        </div> -->
+          <div id="banner_list">
+            <img src="img/home-bg.jpg">
+            <img src="img/about-all-bg.jpg">
+            <img src="img/contact-bg.jpg">
+            <img src="img/about-bg.jpg">
+          </div>
+        </div>
         <div class="article">文章列表</div>
         <div class="artical-list row">
           <div class="col-md-2">
@@ -155,14 +155,14 @@
           </div>
         </div>
         <div class="row col-md-12">
-          <img src="img/about-bg.jpg" alt="" style="height:200px;width:100%;padding:10px;">
+          <img src="img/about-bg.jpg" alt="" style="height:200px;width:100%;padding:20px 0 20px 10px;">
         </div>
-        <div class="row col-md-12">
-          <button class="btn btn-default" type="button">点击排行</button>
-          <button class="btn btn-default" type="button">最新文章</button>
-          <button class="btn btn-default" type="button">站长推荐</button>
-        </div>
-        <div class="row col-md-12">
+        <div class="row col-md-12" style="margin-left:0;">
+          <div class="btn-group-sm">
+            <button id="rank" class="btn btn-success btn-sm" type="button">点击排行</button>
+            <button id="Latest" class="btn btn-default btn-sm" type="button">最新文章</button>
+            <button id="recommend" class="btn btn-default btn-sm" type="button">站长推荐</button>
+          </div>
           <ul class="news">
             <li>
               <span class="index-circle">1</span>
@@ -186,9 +186,7 @@
         </div>
       </div>
     </div>
-
     <hr>
-
     <!-- Footer -->
     <footer>
       <div class="container">
@@ -229,7 +227,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
