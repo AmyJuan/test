@@ -134,9 +134,9 @@
         </div>
         <hr>
       </div>
-      <div class="col-lg-4 col-md-4 mx-auto" style="border: 1px solid #CCC">
+      <div class="col-lg-4 col-md-4 mx-auto" style="border: 1px solid #CCC;padding:10px;">
         <div style="border-bottom: #CCC 1px solid;">关注我</div>
-        <div class="row" style="margin-top:10px;">
+        <div class="row col-md-12" style="margin-top:10px;">
           <div class="col-md-3">
             <div class="fa fa-github fa-2x"></div>
             <div class="contact-title">github</div>
@@ -154,23 +154,35 @@
             <div class="contact-title" style="margin-left:10px;">微信</div>
           </div>
         </div>
-        <div class="row">
+        <div class="row col-md-12">
           <img src="img/about-bg.jpg" alt="" style="height:200px;width:100%;padding:10px;">
         </div>
-        <div class="row">
-          <div class="col-md-4">点击排行</div>
-          <div class="col-md-4">最新文章</div>
-          <div class="col-md-4">站长推荐</div>
-          <div class="col-md-12">
-            <ul>
-              <li><span>1</span><span>一套字库, 675个图标</span></li>
-              <li><span>2</span><span>不需要 JavaScript 支持</span></li>
-              <li><span>3</span><span>完美支持Retina屏幕</span></li>
-              <li><span>4</span><span>兼容桌面级应用</span></li>
-              <li><span>5</span><span> 兼顾可访问性</span></li>
-              <li><span>6</span><span>完全开源免费</span></li>
-            </ul>
-          </div>
+        <div class="row col-md-12">
+          <button class="btn btn-default" type="button">点击排行</button>
+          <button class="btn btn-default" type="button">最新文章</button>
+          <button class="btn btn-default" type="button">站长推荐</button>
+        </div>
+        <div class="row col-md-12">
+          <ul class="news">
+            <li>
+              <span class="index-circle">1</span>
+              <span>一套字库, 675个图标</span></li>
+            <li>
+              <span class="index-circle">2</span>
+              <span>不需要 JavaScript 支持</span></li>
+            <li>
+              <span class="index-circle">3</span>
+              <span>完美支持Retina屏幕</span></li>
+            <li>
+              <span class="index-square">4</span>
+              <span>兼容桌面级应用</span></li>
+            <li>
+              <span class="index-square">5</span>
+              <span> 兼顾可访问性</span></li>
+            <li>
+              <span class="index-square">6</span>
+              <span>完全开源免费</span></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -217,6 +229,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
